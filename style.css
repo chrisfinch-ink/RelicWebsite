@@ -1,8 +1,27 @@
+/* Center logo and add spacing */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.logo {
+    max-width: 300px;
+    height: auto;
+    display: block;
+}
+h1 {
+    text-align: center;
+    margin-top: 0;
+}
+
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background: #f9f9f9;
+    background: url('images/background.png') no-repeat center center fixed;
+    background-size: cover;
     color: #222;
 }
 h1 {
